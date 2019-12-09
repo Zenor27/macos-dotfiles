@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/Users/zenor/Documents/pickyourskills_backend'
+let g:netrw_dirhist_8='/Users/zenor/Workspace'
+let g:netrw_dirhist_7='/Users/zenor/Workspace/dotfiles'
+let g:netrw_dirhist_6='/Users/zenor/Workspace'
+let g:netrw_dirhist_5='/Users/zenor/Workspace/dotfiles'
+let g:netrw_dirhist_4='/Users/zenor/Workspace'
+let g:netrw_dirhist_3='/Users/zenor/Workspace/dotfiles'
+let g:netrw_dirhist_2='/Users/zenor/Workspace'
+let g:netrw_dirhist_1='/Users/zenor/tmp/infra-dev-setup/frontend/src'
