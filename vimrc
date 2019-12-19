@@ -1,4 +1,3 @@
-
 "Add pathogen tpope plugin manager
 execute pathogen#infect()
 
@@ -32,10 +31,6 @@ set smarttab
 "reacts to the syntax/style of the code you are editing 
 set smartindent
 
-
-"Set theme
-"colorscheme hybrid
-
 "Activate mouse using
 set cursorline
 set mouse=a
@@ -47,31 +42,11 @@ set foldcolumn=4
 set foldlevel=999
 
 
-"Enable parenthesis color matching
-let g:rainbow_active = 1
-
-
-"let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-
-"Map syntastic close tab
-:nnoremap <C-p> :SyntasticToggleMode<CR>
-:nnoremap <C-l> :lclose<CR>
-
 "Map autoindent
 :nnoremap <C-i> gg=G''<CR>
 
 :nnoremap <S-tab> gt
 
-"LightLine settings"
-set laststatus=2
-set noshowmode
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
 
 "Whitespace show"
 set list listchars=trail:.
@@ -84,4 +59,5 @@ let &t_EI = "\<esc>[ q"  " default cursor (usually blinking block) otherwise
 
 
 set backspace=indent,eol,start
-
+set omnifunc=syntaxcomplete#Complete
+:setlocal shortmess+=c
